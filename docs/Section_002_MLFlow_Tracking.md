@@ -7,7 +7,7 @@ We have implemented a simple ml model to showcase the experiment tracking concep
 ### Source code
 ??? Note "simple_ML_model.py"
 
-      ```python linenums="1"
+    ```python linenums="1"
     import os
     import argparse
     import pandas as pd
@@ -79,7 +79,7 @@ We have implemented a simple ml model to showcase the experiment tracking concep
             raise e
     ```
 
-* Source repository - [Click here]()
+* Source repository - [Click here](https://github.com/HARSHALKUMRE/mlflow-introduction/tree/main/mlflow-codebase)
 
 
 ### Concept of Runs

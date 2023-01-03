@@ -1,0 +1,73 @@
+# Project information
+site_name: material-for-mkdocs-updated
+# defeine TOC or order of website-
+nav:
+  - Home: index.md
+  - Page-2: page2.md
+
+site_author: Harshalkumar Gulabrao Kumre
+site_description: >-
+  DESCRIPTION
+
+# Repository
+repo_name: HARSHALKUMRE/material-for-mkdocs-updated
+repo_url: https://github.com/HARSHALKUMRE/material-for-mkdocs-updated
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime    
+  # logo: PyTorch_logo_icon.svg
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/HARSHALKUMRE/
+    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/harshal-kumre/
+    - icon: fontawesome/brands/instagram
+      
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js #?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  
+  
+plugins:
+  - search
+
+copyright: |
+  &copy; 2022 <a href="https://github.com/HARSHALKUMRE/"  target="_blank" rel="noopener">Harshalkumar Gulabrao Kumre</a>

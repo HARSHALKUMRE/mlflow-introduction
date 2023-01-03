@@ -1,17 +1,18 @@
 # Project information
-site_name: material-for-mkdocs-updated
+site_name: MLFlow - Introduction
 # defeine TOC or order of website-
 nav:
   - Home: index.md
-  - Page-2: page2.md
+  - Section 01 Introduction to MLFlow: Section_001_MLFlow_Introduction.md
+  - Section 02 MLFlow Tracking: Section_002_MLFlow_Tracking.md
 
 site_author: Harshalkumar Gulabrao Kumre
 site_description: >-
-  DESCRIPTION
+  This contains the introduction to MLFlow library
 
 # Repository
-repo_name: HARSHALKUMRE/material-for-mkdocs-updated
-repo_url: https://github.com/HARSHALKUMRE/material-for-mkdocs-updated
+repo_name: HARSHALKUMRE/mlflow-introduction
+repo_url: https://github.com/HARSHALKUMRE/mlflow-introduction
 
 # Configuration
 theme:
@@ -51,7 +52,7 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
+  
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -64,10 +65,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.highlight
   
   
 plugins:
   - search
 
 copyright: |
-  &copy; 2022 <a href="https://github.com/HARSHALKUMRE/"  target="_blank" rel="noopener">Harshalkumar Gulabrao Kumre</a>
+  &copy; 2023 <a href="https://github.com/HARSHALKUMRE/"  target="_blank" rel="noopener">Harshalkumar Gulabrao Kumre</a>
